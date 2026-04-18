@@ -17,6 +17,21 @@ Thank you for contributing to OpenSIN-AI!
 - Write tests for new features
 - JSDoc on exported functions
 
+## Boundary Rules
+
+Before adding a feature or top-level claim, answer:
+
+1. Is this about WebChat integration, or is it broader product-chat ownership?
+2. Does another OpenSIN repo already own the canonical source of truth?
+
+### Put it in `A2A-SIN-WebChat` if:
+- it improves WebChat integration
+- it improves this repo's A2A agent behavior
+
+### Do NOT put it in `A2A-SIN-WebChat` if:
+- it claims main product chat ownership
+- it duplicates product, ops, or docs canon
+
 ## License
 
 MIT — See [LICENSE](LICENSE).
